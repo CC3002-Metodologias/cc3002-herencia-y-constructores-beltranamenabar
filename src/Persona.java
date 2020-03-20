@@ -18,6 +18,6 @@ public class Persona {
     }
 
     public String hacerLoSuyo() {
-        return "";
+        return "Haciendo cuarentena";
     }
 }

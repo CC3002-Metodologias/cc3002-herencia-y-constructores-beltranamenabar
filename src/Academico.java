@@ -4,4 +4,16 @@ public class Academico extends Persona{
         super(nombre, ocupacion, edad);
         this.paper = paper;
     }
+
+    public void dormir(){
+        System.out.println("ZzzZzZz");
+    }
+
+    public String hacerLoSuyo(){
+        return super.hacerLoSuyo() + "\n" + "Aprendiendo a usar Zoom";
+    }
+
+    public String publicarPaper(){
+        return paper;
+    }
 }
