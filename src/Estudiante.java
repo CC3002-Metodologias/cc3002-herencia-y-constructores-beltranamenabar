@@ -12,6 +12,6 @@ public class Estudiante extends Persona{
     }
 
     public String hacerLoSuyo() {
-        return super.hacerLoSuyo() + "\n" + "Viendo Netflix";
+        return super.hacerLoSuyo() + "\n" + "Viendo Anime y Netflix";
     }
 }
