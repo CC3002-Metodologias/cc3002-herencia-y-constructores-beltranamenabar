@@ -1,6 +1,6 @@
 public class Estudiante extends Persona{
     public Estudiante(String nombre, String ocupacion, int edad){
-        super(nombre, ocupacion, edad);
+        super(nombre, "Estudiante", edad);
     }
 
     public void comer() {
